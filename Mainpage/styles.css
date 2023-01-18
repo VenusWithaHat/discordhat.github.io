@@ -1,0 +1,124 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Montserrat', sans-serif;
+    background: rgb(211, 203, 130);
+}
+a {    
+    text-decoration: none;
+    color: #fff;
+}
+ul {
+    list-style: none;
+}
+li {
+    padding: .75rem;
+}
+.container {   
+    max-width: 1200px;   
+    margin: auto;
+    padding: 0 20px;
+}
+.flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.top-bar {    
+    height: 40px; 
+    padding: 10px 0;
+    font-size: 14px; 
+    background: #fff;       
+}
+.top-bar i {
+    font-size: 20px;
+    margin-right: 10px;
+    color: rgb(112, 98, 49);
+}
+.nav-content {
+    background-color: rgb(112, 98, 49);
+    padding: 10px 0 15px 0;
+}
+.logo {
+    font-family: 'Ranchers', cursive;
+    font-size: 34px;
+    color: #e3872d;
+    letter-spacing: 6px;    
+}
+.logo:hover {
+    color: #fff;
+    transition: .5s;
+}
+.nav li a {    
+    letter-spacing: 1px;
+}
+.nav li a:hover {
+    border-bottom: 3px solid #e3872d;
+    padding-bottom: 5px;
+    transition: .5s;
+}
+.nav li:last-child {
+    padding-right: 0;
+}
+@media (max-width: 768px) {
+    .container .nav {
+        flex-direction: column;
+    }
+    .nav .logo {
+        margin-bottom: 10px;
+    }
+    .container .nav li {
+        padding: .25rem .45rem;
+    }    
+}
+@media (max-width: 500px) {
+    .top-bar {    
+        height: 70px;         
+    }    
+    .top-bar .container {
+        flex-direction: column;
+    }    
+    .top-bar .container div:first-child {
+        margin-bottom: 4px;
+    }
+}
+
+ .welcome {
+    text-align: center;
+ }
+
+ .welcome2 {
+    text-align: center;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+ }
+
+ .welcome3 {
+    font-family: 'Luminari', sans-serif;
+ }
+
+ .widthlimit {
+    text-align: center;
+ }
+
+ .penguin {
+    max-width: 100px;
+    max-height: 100px;
+ }
+
+ .wierdo {
+    max-width: 100px;
+    max-height: 100px;
+ }
+
+ .iggy {
+    max-width: 100px;
+    max-height: 100px;
+ }
+
+ .venus {
+    max-width: 100px;
+    max-height: 100px;
+ }
